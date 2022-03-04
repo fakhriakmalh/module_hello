@@ -1,5 +1,5 @@
 package module_hello
 
-func SayHello() string {
-	return "Hello Dunia"
+func SayHello(name string) string {
+	return "Hello Dunia, nama saya adalah " + name
 }
